@@ -1,0 +1,13 @@
+/* SearchBar.css */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar-container input {
+    padding: 8px;
+    width: 50%;
+  }
+  

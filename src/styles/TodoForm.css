@@ -1,0 +1,17 @@
+/* TodoForm.css */
+.todo-form-container {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+  
+  .add-button {
+    padding: 12px;
+    border: none;
+    background-color: #6C63FF;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  

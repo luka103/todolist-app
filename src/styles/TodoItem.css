@@ -1,0 +1,36 @@
+/* TodoItem.css */
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-item.completed {
+    background-color: #e0f7fa;
+  }
+  
+  .todo-item input {
+    margin-right: 10px;
+  }
+  
+  .todo-item-actions button {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .todo-item-actions button:hover {
+    background-color: #ddd;
+  }
+  
