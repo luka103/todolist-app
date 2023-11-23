@@ -1,7 +1,6 @@
-// TodoForm.js
 import React, { useState } from 'react';
 import Popup from './Popup';
-import './styles/TodoForm.css'; // Import styles for TodoForm
+import './styles/TodoForm.css'; 
 
 function TodoForm({ addTask }) {
   const [isPopupVisible, setPopupVisible] = useState(false);

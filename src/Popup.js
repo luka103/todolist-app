@@ -1,4 +1,3 @@
-// Popup.js
 import React, { useState } from 'react';
 import './styles/Popup.css';
 

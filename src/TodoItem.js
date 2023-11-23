@@ -1,4 +1,3 @@
-// TodoItem.js
 import React, { useState } from 'react';
 import './styles/TodoItem.css';
 
